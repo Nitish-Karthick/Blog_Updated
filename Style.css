@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #003366, #00509E);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    background: linear-gradient(to right, #003366, #00509E);
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background-color: #0073E6;
+    transform: scale(1.1);
+}
+
+.hero {
+    background: linear-gradient(to bottom right, #003366, #00509E, #0073E6);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: linear-gradient(to right, #003366, #00509E);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#comments {
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#comments h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+#comments form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#comments label {
+    font-weight: bold;
+    color: #003366;
+}
+
+#comments input[type="text"],
+#comments textarea {
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 95%;
+    background: linear-gradient(to bottom, #ffffff, #f7f7f7);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#comments button {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    background: linear-gradient(to right, #003366, #00509E);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#comments button:hover {
+    background: linear-gradient(to right, #00509E, #0073E6);
+    transform: scale(1.05);
+}
+
+.comment {
+    background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+    padding: 13px;
+    margin-top: 20px;
+    border-left: 5px solid #003366;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment strong {
+    font-size: 1.2em;
+    color: #003366;
+}
+
+.comment p {
+    font-size: 1em;
+    color: #555;
+    margin-top: 5px;
+}
